@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: 'https://random-chat-liard.vercel.app/', // Vite's default dev server port
+        origin: 'https://random-chat-alpha.vercel.app', // Vite's default dev server port
         methods: ['GET', 'POST']
     }
 });
